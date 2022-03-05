@@ -1,2 +1,2 @@
-# Udemy_HTML---CSS_course
+# Udemy HTML---CSS Course
 Learning HTML & CSS
