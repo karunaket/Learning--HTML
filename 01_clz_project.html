@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <script type="text/javascript">
+
+    function a1()
+    {
+      alert("Welcome!");
+    }
+    function a2()
+    {
+      alert("Don't touch the line.");
+    }
+    function a3()
+    {
+      var  a = parseInt(prompt("Enter 1st no.:"))
+
+      var  b = parseInt(prompt("Enter 2nd no.:"))
+      var result = a + b;
+
+      alert("Sum = "+result);
+    }
+
+  </script>
+
+  <title>Nobel</title>
+</head>
+<body bgcolor="7CAFD" onload="a1()">
+  
+  <h1><b><center><font color="maroon" face="helvertica" size="20
+    "><u>This is revision site</u></font></center></b></h1>
+
+  <hr color="red" size="15" onmouseover="a2()" >
+
+  
+
+  <center><h1>Exam Registration Form</h1></center>
+
+  <form>
+
+      Name: <input type="text" name="Name" placeholder="Enter your name">
+
+<br><br>
+
+      Class: <input type="radio" name="class">11
+          <input type="radio" name="class">12
+
+          <br><br>
+
+    Faculty: <select name="faculty">"
+
+        <option value="Science">Science</option>
+        <option value="Commerce">Commerce</option>
+        <option value="HM">HM</option>
+
+      </select>
+
+          <br><br>
+          
+          Photo: <input type="file">
+          
+          <br><br>
+          
+        <center>
+          <button onclick="a3()">Calculate</button>
+          <button>Reset</button>
+        </center>
+
+          <br><br>
+
+          <script type="text/javascript">
+            
+            // Not in class-12 course.
+
+        window.addEventListener('beforeunload', (event) => {
+            event.preventDefault();
+            // Google Chrome requires returnValue to be set.
+            event.returnValue = '';
+        });
+
+          </script>
+
+          <br><br>
+  </form>
+
+
+</body>
+</html>
